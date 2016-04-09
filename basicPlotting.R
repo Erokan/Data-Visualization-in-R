@@ -1,1 +1,2 @@
 sehir<-"Antalya"
+isim<-"Yigit"
