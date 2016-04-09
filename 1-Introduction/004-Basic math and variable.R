@@ -4,3 +4,7 @@
 52/9
 10^2 #üstel ifade
 10%%3  # mod alma
+
+#Define a variable
+name<-"Erokan"
+city<-'Antalya'
