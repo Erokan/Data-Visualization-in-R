@@ -34,3 +34,18 @@ View(women)
 install.packages("ggplot2")
 require(ggplot2)
 View(diamonds)
+
+
+# Reading text file from system - NOT TESTED!
+cars<-read.table("cars.txt",sep=' ')   #values are differentiated with space
+View(cars)
+
+
+
+
+# Reading Data from DATABASES - NOT TESTED!
+drv=dbDriver("MySQL")
+con=dbConnect(drv,user="root",password="12345", dbname='information_schema')
+dbListTables(con)
+statistics<-dbReadTable(con,"STATISTICS")
+View(statistics)
