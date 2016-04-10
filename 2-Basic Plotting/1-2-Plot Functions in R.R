@@ -44,11 +44,24 @@ plot(x,y,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors
 
 
 # par function can be used to set or query graphical parameters
-# mfrow
-# mfcol
-# mar
-# tck
-# oma
-# omd
-# pty
-# mgp
+# mfrow --> fill matrix with row
+# mfcol --> fill matrix with column
+# mar --> c(bottom,left,top,right)
+# tck --> appropriate values between 0-1
+# oma --> set size of the outer margins in lines of text
+# omd --> region inside outer margins
+# pty --> specifying the type of plot region
+# mgp --> give the height of line of text
+par(mar=c(2,2,2,2),mfrow=c(2,1))
+plot(x,main="plot of x")
+plot(y,main="plot of y")
+
+
+par(mar=c(3,4,5,6),mfcol=c(1,2))
+plot(x,main="plot of x")
+plot(y,main="plot of y")
+plot(x,pty="s",main="plot of x")
+plot(x,y,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors",tck=0.2) 
+# dev.off() --> Hata veriyor ???
+par(mgp=c(0,1,0))
+plot(x,y,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors") 
