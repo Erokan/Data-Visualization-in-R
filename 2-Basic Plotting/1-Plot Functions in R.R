@@ -23,7 +23,8 @@ plot(x,y,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors
 
 # working with lines
 # type="l" --> çizginin türü (line)
-# lwd=5 --> çizginin kalınlığı
+# lwd=5 --> line width (çizginin kalınlığı)
+# lty --> line type
 plot(x,y,type="l",lty=3,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors")
 plot(x,y,type="l",lty=3,lwd=5,xlab="x-axis", ylab="y-axis",main="X vs Y Plot", sub = "plot of vectors")
 
