@@ -8,3 +8,4 @@
 #Define a variable
 name<-"Erokan"
 city<-'Antalya'
+class<-"Web Editörü"
