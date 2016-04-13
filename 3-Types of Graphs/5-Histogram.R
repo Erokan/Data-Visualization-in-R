@@ -1,4 +1,5 @@
 # HISTOGRAM
+
 library(readxl)
 mtcar<-read_excel("5-Mtcar.xlsx")
 
