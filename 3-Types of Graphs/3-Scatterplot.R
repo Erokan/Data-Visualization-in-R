@@ -4,7 +4,7 @@
 # The graph looks like a bunch of dots
 
 # It is used to display the relationship between two quantitative variables.
-
+#
 library(readxl)
 Trees<-read_excel("3-Trees.xlsx")
 View(Trees)
