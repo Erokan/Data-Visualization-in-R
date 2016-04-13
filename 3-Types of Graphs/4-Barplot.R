@@ -1,4 +1,4 @@
-
+# Barplot
 library(readxl)
 Arthritis<-read_excel("4-Arthritis.xlsx")
 
